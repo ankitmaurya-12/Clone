@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robot',sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+:root {
+    --primary-color: #2874f0
+}
+
+.container{
+    padding: 0px;
+
+}
+
+/* header */
+
+header{
+    background-color: var(--primary-color);
+    height: 66px;
+    width: 100%;
+    /* position: fixed; */
+
+}
+
+header .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    /* justify-content: flex-end; */
+}
+
+header .nav-container .logo{
+    display: flex;
+    /* min-width: 89px; */
+    min-width: 137px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+    font-style: italic;
+
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+/* header .nav-container .logo img{
+   width: 75px;
+} */
+
+.flipkart{
+    color: white;
+    width: 80px;
+    padding: 0 0px;
+    cursor: pointer;
+}
+
+.plus{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.star-img{
+    width: 12px;
+}
+.star-img img{
+    width: 100%;
+    /* overflow-clip-margin: content-box; */
+    /* overflow: clip; */
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    /* width: 100%; */
+    margin-left: 20px;
+    /* justify-content: center; */
+}
+.search .search-container{
+    width: 550px;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    display: flex;
+}
+
+header .search .search-container input{
+    width: calc(100% - 40px);
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #212121;
+    border-radius: 2px 0 0 2px;
+}
+
+header .search .search-container button{
+    width: 40px;
+    height: 100%;
+    border: none;
+    outline: none;
+    /* background-color: var(--primary-color); */
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+}
+
+header .login{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    /* justify-content: center; */
+}
+
+header .login button{
+    width: 122px;
+    height: 35px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    outline: none;
+
+}
+
+header .login button:hover{
+    background-color: #f1f3f6;
+}
+
+header .become-seller{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+header .more{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+header .more svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    rotate: -90deg;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+header .more svg:hover{
+    rotate: 90deg;
+}
+
+header .cart{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+header .cart svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Section 1 */
+
+section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 122px;
+    background-color: #fff;
+    /* padding: 20px 0; */
+    /* justify-content: center; */
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%);
+}
+
+section .sec-1-container{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 100%;
+    max-width: 1250px;
+}
+
+/* 
+section .sec-1-container .sec-1{
+   
+} */
+
+/* .sec-1 .item-1,.sec-1 .item-2,.sec-1 .item-3,.sec-1 .item-4,.sec-1 .item-5,.sec-1 .item-6,.sec-1 .item-7,.sec-1 .item-8,.sec-1 .item-9{
+    margin: 0 10px;
+
+}  */
+
+
+.sec-1-container div{
+    margin: 0 15px;
+}
+
+.sec-1-container div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sec-1-container .item-name{
+    font-size: 15px;
+    font-weight: 500;
+    color: #212121;
+    text-align: center;
+    /* margin-top: 5px; */
+}
